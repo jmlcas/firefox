@@ -1,6 +1,3 @@
-# firefox
-Firefox - Navegador web - Docker compose
+# Firefox
 
-Ver en "localhost:5800"
-
-
+Ver en "http://localhost:5800"
