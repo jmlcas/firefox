@@ -4,8 +4,8 @@ services:
     image: jlesage/firefox
     container_name: firefox
     volumes:
-      - ./firefox/config:/config:rw
+      - ./firefox:/config:rw
     ports:
       - "5800:5800"
-    restart: unless-stopped 
-    
+    restart: unless-stopped   
+
